@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品展示网站</title>
+    <style>
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* 主体内容样式 */
+        main {
+            padding: 20px;
+        }
+
+       .work {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+       .work img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+       .work h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+       .work p {
+            color: #666;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>我的作品展示</h1>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">作品分类 1</a></li>
+            <li><a href="#">作品分类 2</a></li>
+            <li><a href="#">关于我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主体内容 -->
+    <main>
+        <div class="work">
+            <img src="https://picsum.photos/300" alt="作品图片 1">
+            <h2>作品名称 1</h2>
+            <p>这是我的第一件作品，展示了一些独特的创意和设计思路。</p>
+        </div>
+        <div class="work">
+            <img src="https://picsum.photos/300" alt="作品图片 2">
+            <h2>作品名称 2</h2>
+            <p>这件作品体现了我在某个领域的探索和实践，希望能给大家带来启发。</p>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        &copy; 2024 版权所有
+    </footer>
+</body>
+
+</html>
